@@ -1,0 +1,151 @@
+/* zero style */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Noto Serif", serif;
+}
+
+/* zero style */
+
+/* header */
+
+header{
+    background: #333333;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-left: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* header */
+
+
+/* hero */
+
+.hero__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero__contacts{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.hero__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+}
+
+.flex__text{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.flex__subtitle{
+    margin-left: 24px;
+    margin-top: 10px;
+}
+
+.flex__subtitle__end{
+    margin-left: 13px;
+    margin-top: 10px;
+}
+
+.map{
+    align-items: center;
+    text-align: center;
+    font-width: 1110px;
+    margin-top: 60px;
+}
+
+
+/* hero */
+
+
+/* footer */
+
+footer{
+    padding: 80px 0;
+    color: #333333;
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.footer__icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__text{
+margin-bottom: 12px;
+}
+
+.footer__title{
+    margin-bottom: 25px;
+}
+
+.footer__cards{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__line{
+    width: 180px;
+    border: none;
+    border-top: 1px solid #C4C4C4;
+    margin: 20px 0 40px;
+}
+
+.footer__hr{
+    border: none;
+    border-top: 1px solid #D8D8D8;
+    margin: 40px 0 30px;
+}
+
+/* footer */

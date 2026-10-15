@@ -1,0 +1,378 @@
+/* zero style */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Noto Serif", serif;
+}
+
+/* zero style */
+
+/* header */
+
+header{
+    background: #333333;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    margin-left: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* header */
+
+/* hero */
+
+.page__nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 51px;
+}
+
+.page__nav a{
+    margin-left: 31px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+}
+
+/* hero */
+
+/* product */
+
+.product__right__line{
+    border: 1px solid gray;
+    padding: 10px;
+
+}
+
+.product__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.products__small{
+    margin-top: 30px;
+}
+
+.product__small__img__space{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.product__right{
+    border: 1px solid grey;
+    padding-bottom: 53px;
+    padding: 30px;
+}
+
+.product__right__title{
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 10%;
+    color: #333333;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.product__right__category{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #979797;
+    margin-bottom: 30px;
+}
+
+.product__right__category1{
+    margin-right: 30px;
+}
+
+.product__right__text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+    margin-top: 30px;
+}
+
+.product__right__price{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    line-height: 100%;
+    letter-spacing: 5%;
+    color: #333333;
+}
+
+.product__right__btn{
+    margin-top: 30px;
+}
+
+.product__btn__buy{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid #D6D6D6;
+    color: #fff;
+    background-color: #333333;
+    cursor: pointer;
+    letter-spacing: 10%;
+    transition: all 0.7s;
+}
+
+.product__btn__basket{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid #333333;
+    cursor: pointer;
+    letter-spacing: 10%;
+    margin-left: 30px;
+    background: none;
+}
+
+/* product */
+
+/* full info */
+
+.full__info__content{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 120px;
+}
+
+.full__info__left{
+    width: 540px;
+}
+
+.full__info__left__subtitle{
+    margin-top: 30px;
+}
+
+.full__info__right{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 103px;
+}
+
+/* full info */
+
+
+/* goods */
+
+.goods__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero__cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.goods__subtitle{
+    margin-top: 120px;
+    color: #333333;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.goods__title{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 100%;
+}
+
+.goods__card__btn{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid #D6D6D6;
+    color: #fff;
+    background-color: #333333;
+    cursor: pointer;
+    letter-spacing: 10%;
+    transition: all 0.7s;
+    margin-bottom: 95px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.goods__cards__subtitle{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #333333;
+    text-align: center;
+}
+.goods__cards__title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+    color: #333333;
+    text-align: center;
+}
+
+/* goods */
+
+/* offers */
+
+.offers{
+    background: url(../img/Rectangle.jpg) no-repeat center/cover;
+    height: 541px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__content{
+    width: 730px;
+    text-align: center;
+    color: #fff;
+}
+
+.offers__title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.offers__center{
+    display: flex;
+    gap: 80px;
+}
+
+.offers__left{
+    margin-top: 63px;
+}
+
+.offers__right{
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+    width: 418px;
+    height: 85px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid gray;
+    align-items: center;
+    gap: 15px;
+}
+
+.offers__flex{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 15px;
+    gap: 20px;
+}
+
+.offers__input{
+    width: 200px;
+    height: 45px;
+}
+
+.offers__btn{
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border: 1px solid #D6D6D6;
+    color: #fff;
+    background-color: #333333;
+    cursor: pointer;
+    letter-spacing: 10%;
+    transition: all 0.7s;
+}
+
+/* offers */
+
+/* footer */
+
+footer{
+    padding: 80px 0;
+    color: #333333;
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.footer__icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__text{
+margin-bottom: 12px;
+}
+
+.footer__title{
+    margin-bottom: 25px;
+}
+
+.footer__cards{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__line{
+    width: 180px;
+    border: none;
+    border-top: 1px solid #C4C4C4;
+    margin: 20px 0 40px;
+}
+
+.footer__hr{
+    border: none;
+    border-top: 1px solid #D8D8D8;
+    margin: 40px 0 30px;
+}
+
+/* footer */
